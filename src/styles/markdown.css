@@ -91,4 +91,12 @@
         }
 
     }
+
+    strong {
+        @apply font-semibold bg-[var(--secondary)] text-[var(--primary)]
+    }
+
+    em {
+        @apply not-italic bg-[var(--secondary)]
+    }
 }

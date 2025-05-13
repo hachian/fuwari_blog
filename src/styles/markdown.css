@@ -93,10 +93,10 @@
     }
 
     strong {
-        @apply font-semibold bg-[var(--secondary)] text-[var(--primary)]
+        @apply font-semibold text-[var(--strong-text)]
     }
 
     em {
-        @apply not-italic bg-[var(--secondary)]
+        @apply not-italic text-[var(--em-text)]
     }
 }

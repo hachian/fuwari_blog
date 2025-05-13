@@ -19,6 +19,45 @@
         }
     }
 
+    h2 {
+        @apply text-4xl font-bold pl-4 border-l-8 my-10;
+        border-left-color: var(--primary);
+    }
+
+    h3 {
+        @apply text-3xl font-bold border-b-4 pb-1 my-8;
+        color: var(--primary);
+        border-bottom-color: var(--primary);
+    }
+
+    h4 {
+        @apply text-2xl font-bold px-2 py-1 block my-3;
+        background-color: var(--primary-bg);
+        border-left: 4px solid var(--primary);
+    }
+
+    h5 {
+        @apply text-xl font-bold relative pl-6 my-5;
+    }
+
+    h5::before {
+        content: "♦ ";
+        position: absolute;
+        left: -5px;
+        top: 0;
+        color: var(--primary);
+    }
+
+    h6 {
+        @apply text-base font-bold relative pl-6 my-6;
+    }
+
+    h6::before {
+        content: "";
+        @apply absolute left-0 top-1/2 w-2 h-2 rounded-full -translate-y-1/2;
+        background-color: var(--primary);
+    }
+
     a:not(.no-styling) {
         @apply relative bg-none link font-medium text-[var(--primary)]
         underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;

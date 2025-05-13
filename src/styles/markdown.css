@@ -20,18 +20,18 @@
     }
 
     h2 {
-        @apply text-4xl font-bold pl-4 border-l-8 my-10;
+        @apply text-3xl font-bold pl-4 border-l-8 my-10;
         border-left-color: var(--primary);
     }
 
     h3 {
-        @apply text-3xl font-bold border-b-4 pb-1 my-8;
+        @apply text-2xl font-bold border-b-4 pb-1 my-8;
         color: var(--primary);
         border-bottom-color: var(--primary);
     }
 
     h4 {
-        @apply text-2xl font-bold px-2 py-1 block my-3;
+        @apply text-xl font-bold px-2 py-1 block my-3;
         background-color: var(--primary-bg);
         border-left: 4px solid var(--primary);
     }
